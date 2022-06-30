@@ -1,0 +1,21 @@
+.background{
+    background-image: url("https://i.ibb.co/FY3WXZb/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg");
+    /* background-color: aquamarine; */
+    width: 100vw;
+    height: 50vh;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ck-editor__editable {
+    min-height: 600px;
+  }
+.titlePost input{
+    font-size: 20px;
+    font-weight: 600;
+}
+.postTitleInput{
+    font-size: 40px;
+    color: tomato;
+}

@@ -1,0 +1,65 @@
+.postBox{
+    height: max-content;
+    background-color: black;
+    color: blanchedalmond;
+}
+.postTitle{
+    width: 75%;
+    float: left;
+}
+.postBox img{
+min-width: 300px;
+height: 400px;
+}
+.viewdescription{
+    height: 100px;
+    overflow:scroll;
+    text-overflow: ellipsis; 
+  
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+@media only screen and (max-width: 300px) {
+    .postBox img{
+        min-width: 200px;
+        height: 150px;
+        }
+        .postTitle{
+            width: 100%;
+            float: left;
+        }
+        
+  }
+
+  @media only screen and (max-width: 500px) {
+    .postBox img{
+        min-width: 250px;
+        height: 180px;
+        }
+        .postTitle{
+            width: 100%;
+            float: left;
+        }
+        
+  }
+  @media only screen and (max-width: 400px) {
+
+        .postBox{
+           display: block;
+        }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .postBox img{
+        min-width: 200px;
+        height: 150px;
+        }
+        .postTitle{
+            width: 100%;
+            float: left;
+        }
+        
+  }
+ .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}

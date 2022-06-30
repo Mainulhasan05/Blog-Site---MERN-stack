@@ -1,0 +1,35 @@
+.nameFields{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.userName{
+    box-sizing: border-box;
+    margin-right: 5px;
+    height: 2.5em;
+    width: 14.8vw;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .nameFields{
+        display: block;
+    }
+    .userName{
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .loginContainer {
+      background-color: lightblue;
+    }
+    .inputFields{
+        height: 2.5em;
+        width: 95vw;
+        font-size: 20px;
+    }
+  }

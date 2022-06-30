@@ -1,0 +1,48 @@
+.loginContainer{
+    margin-top: auto;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lockIcon{
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 50%;
+    color: #a834eb;
+    background-color: rgba(245, 236, 219, .6);
+}
+.inputFields{
+    height: 2.5em;
+    width: 30vw;
+    font-size: 20px;
+}
+.forgetPass{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .loginContainer {
+      background-color: lightblue;
+    }
+    .inputFields{
+        height: 2.5em;
+        width: 80vw;
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .loginContainer {
+      background-color: lightblue;
+    }
+    .inputFields{
+        height: 2.5em;
+        width: 95vw;
+        font-size: 20px;
+    }
+  }
