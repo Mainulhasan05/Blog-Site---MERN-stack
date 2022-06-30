@@ -10,7 +10,7 @@
 - CKE Editor 5 
 
 ### Features
-This is a simple bloging site. Where anyone can read posts , posted by others. But to make a post he/she must open an account. A post could be publicly shared or private. It it is publicly shared then it will be visible to everyone at their homepage. There is an admin panel also. From admin panel admin can control user accounts. If anyone is posting in apropiate things then admin can simply delete that post or also can delete that user account. Admin can watch number of posts posted by each users. Admin cant watch private posts.
+This is a simple bloging site. Where anyone can read posts , posted by others. But to make a post he/she must open an account. A post could be publicly shared or private. It it is publicly shared then it will be visible to everyone at their homepage. There is an admin panel also. From admin panel admin can control user accounts. If anyone is posting in apropiate things then admin can simply delete that post or also can delete that user account. Admin can watch number of posts posted by each users. Admin cant watch private posts. Members can delete their account in that case their posts will also be deleted.
 
 ![image](https://user-images.githubusercontent.com/55666627/176684380-aebe4906-c5b0-47f9-9d6d-cad71cd22766.png)
 Homepage
